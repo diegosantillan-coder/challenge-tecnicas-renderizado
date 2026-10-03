@@ -1,8 +1,8 @@
+// src/utils/renderStrategy.js
 export function renderStrategy() {
-  const products = [
-    { id: 1, name: 'Producto 1' },
-    { id: 2, name: 'Producto 2' },
-    { id: 3, name: 'Producto 3' }
+  return [
+    { id: 1, name: 'Laptop Pro 16"', price: '$1200' },
+    { id: 2, name: 'Teclado Mecánico RGB', price: '$80' },
+    { id: 3, name: 'Monitor 4K 27"', price: '$350' }
   ];
-  return products;
 }
